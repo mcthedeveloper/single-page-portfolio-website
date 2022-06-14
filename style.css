@@ -1,0 +1,100 @@
+/*----------------------------------*\
+  ROOT AND BODY
+\*----------------------------------*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 15px 25px;
+}
+
+/*HEADER and NAV BAR*/
+.logo img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+}
+
+.logo-text {
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style-type: none;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.nav-list .nav-item {
+  display: inline-block;
+  padding: 20px 10px;
+  min-width: 15%;
+}
+
+/*span */
+.code {
+  background-color: black;
+  color: rgb(179, 126, 43);
+}
+
+/*testing purposes*/
+.logo,
+.logo-text,
+.nav-list,
+div,
+article,
+section {
+  /* border: 3px solid black; */
+}
+
+.contact-list {
+  list-style-position: inside;
+  text-align: center;
+}
+
+/* div containers for article */
+.center {
+  text-align: center;
+  margin: 200px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+p,
+ul,
+ol {
+  line-height: 28px;
+}
+
+#hire-button {
+  background-color: lightgray;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
