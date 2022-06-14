@@ -49,6 +49,10 @@ body {
   color: rgb(179, 126, 43);
 }
 
+ul li {
+  list-style-type: none;
+}
+
 /*testing purposes*/
 .logo,
 .logo-text,
